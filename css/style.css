@@ -1,0 +1,213 @@
+@font-face{
+    font-family:  Noto Sans;
+    src: url(NotoSans-SemiBold.ttf);
+}
+.page1{
+    width: 75%;
+    height: 1000px;
+    margin: 0px auto;
+}
+.header{
+    height: 200px;
+    margin-bottom: 20px;
+}
+.page1 h1{
+    margin-top: 70px;
+    padding-left: 20px;
+    float: left;
+    position:relative;
+    top:0;
+}
+.page1 h1:hover{
+    transform: scale(1.2);
+    transition: all .3s ease-out;
+}
+.menu{
+    list-style: none;
+    float: right;
+    
+    margin-top: 80px; 
+    margin-bottom: 10px;
+}
+.menu li{
+    float: left;
+    margin-right: 30px;
+    margin-top: 80px;
+    
+    font-size: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: #3a3431;
+    padding-bottom: 2px;
+    font-family:  Noto Sans;
+}
+.menu a:hover{
+    border-bottom: 4px solid #d30d2c;
+}
+.imagens{
+    height: 225px;
+}
+#desenho{
+    margin-top: 50px;
+    margin-left: -170px;
+    margin-bottom: -394px;
+    float: left;
+}
+#cashback{
+    
+    margin-top: 120px;
+    margin-right: 50px;
+    float: right;
+    position:relative;
+    top:0;
+}
+#cashback:hover{
+    top:-4px;
+    box-shadow:0 4px 4px #fff;
+    transition: all .2s ease-in-out;
+    transform: rotate(-5deg);
+}
+.enunciado h1{
+    font-family: Noto Sans, sans-serif;
+    font-size: 40px;
+    padding-top: 5%;
+    color: #d30d2c;
+}
+.enunciado h1 b{
+    color: #3a3431;
+}
+.page2{
+    width: 75%;
+    height: 600px;
+    margin: 50px auto;
+    padding-top: 120px;
+    position: relative;
+}
+.page2 h1{
+    font-family: Noto Sans;
+    font-size: 40px;
+    font-weight: 700;
+    color: #d30d2c;
+    margin-left: 10%;
+}
+.page2 h1 b{
+    color: #3a3431;
+}
+#dispositivos{
+    float: right;
+}
+#logoclaro{
+    padding-left: 32%;
+}
+.plataformas{
+    position: absolute;
+    float: left;
+    padding-top: 5%;
+    margin-left: 16%;
+}
+#ios{
+    padding-left: 50px;
+}
+.container
+{
+	margin: 0px auto;
+    width: 1200px;
+    color: #d30d2c;
+}
+#copyright
+{
+	overflow: hidden;
+	padding: 6em 0em 10em 0em;
+	border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+#copyright p
+{
+	letter-spacing: 0.20em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	color: gray;
+}
+
+#copyright a
+{
+	text-decoration: none;
+	color: rgba(255,255,255,0.6);
+}
+.outrapage{
+    padding-top: 100px;
+    width: 75%;
+    height: 900px;
+    margin: 0px auto;
+}
+.outrapage h1{
+    font-family: Noto Sans, sans-serif;
+    font-size: 40px;
+    color: #3a3431;
+    padding-left: 20%;
+    padding-bottom: 50px;
+}
+.outrapage h1 b{
+    color: #d30d2c;
+}
+.outrapage h1 b:hover{
+    transform: scale(1.2);
+    transition: all .3s ease-out;
+}
+#card1{
+    margin-top: 5%;
+}
+#card2{
+    margin-top: 5%;
+    margin-left: 20%;    
+}
+#card3{
+    margin-top: 5%;
+    margin-left: 40%;   
+}
+#card1:hover {
+    transform: scale(1.2);
+    transition: all .3s ease-out;
+}
+#card2:hover {
+    transform: scale(1.2);
+    transition: all .3s ease-out;
+}
+#card3:hover {
+    transform: scale(1.2);
+    transition: all .3s ease-out;
+}
+
+.fadedfx {
+    visibility: hidden;
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
